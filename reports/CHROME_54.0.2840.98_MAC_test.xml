@@ -5,9 +5,9 @@
 
   <testsuite name="test"
     errors="1" failures="0" hostname="" id="" package="test" skipped="0"
-    tests="1" time="25.73" timestamp="Wed, 30 Nov 2016 21:48:17 GMT">
+    tests="1" time="34.52" timestamp="Thu, 01 Dec 2016 15:40:20 GMT">
   
-    <testcase name="Search &#39;samsung&#39;" time="25.73" assertions="5">
+    <testcase name="partialBuy" time="34.52" assertions="5">
 
     
 
@@ -20,8 +20,8 @@
     
     </testcase>
       <system-err>
-        ERROR: Unable to locate element: &quot;.js-checkout-gender input[name=gender]&quot; using: css selector
-    at Object.Search &#39;samsung&#39; (/Users/javieranselmi/projects/phantomjs-test/tests/test.js:21:10)
+        ERROR: Unable to locate element: &quot;js-stepDelivery-submit&quot; using: css selector
+    at Object.partialBuy (/Users/javieranselmi/projects/phantomjs-test/tests/test.js:38:10)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
